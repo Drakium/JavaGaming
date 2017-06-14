@@ -1,0 +1,64 @@
+<scene exported_by="chris" formatVersion="1.0.1" previous_export_time="1493846759.6473846" export_time="1493880303.7499976" >
+  <nodes >
+    <node name="Armature" >
+      <position z="-0.000000" y="0.000000" x="0.000000" />
+      <rotation qz="-0.000000" qw="1.000000" qx="0.000000" qy="0.000000" />
+      <scale z="1.000000" y="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="Plane" >
+        <position z="-0.000000" y="0.000000" x="0.000000" />
+        <rotation qz="-0.000000" qw="1.000000" qx="0.000000" qy="0.000000" />
+        <scale z="1.000000" y="1.000000" x="1.000000" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity lock_rot_x="False" name="Plane" damping_rot="0.10000000149011612" velocity_max="0.0" mass_radius="1.0" inertia_tensor="0.4000000059604645" meshFile="Plane.mesh" lock_rot_z="False" friction_y="1.0" lock_trans_y="False" ghost="False" anisotropic_friction="False" lock_trans_z="False" mass="1.0" velocity_min="0.0" friction_z="1.0" physics_type="STATIC" friction_x="1.0" actor="False" lock_trans_x="False" lock_rot_y="False" damping_trans="0.03999999910593033" />
+      </node>
+    </node>
+    <node name="Lamp" >
+      <position z="-1.005454" y="5.903862" x="4.076245" />
+      <rotation qz="-0.272171" qw="0.570947" qx="0.169076" qy="0.755880" />
+      <scale z="1.000000" y="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light type="point" powerScale="1.0" name="Lamp" shadow="true" >
+        <position z="-1.005454" y="5.903862" x="4.076245" />
+        <lightAttenuation quadratic="0.0" range="5000" constant="1.0" linear="0.03333335240683057" />
+        <colourDiffuse r="1.0" g="1.0" b="1.0" />
+        <colourSpecular r="1.0" g="1.0" b="1.0" />
+        <colourShadow r="1.0" g="1.0" b="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position z="6.507640" y="5.343665" x="7.481132" />
+      <rotation qz="-0.208704" qw="0.780483" qx="0.483536" qy="0.336872" />
+      <scale z="1.000000" y="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera fov="0.5033799435163735" name="Camera" projectionType="perspective" >
+        <clipping far="100.0" nearPlaneDist="0.10000000149011612" near="0.10000000149011612" farPlaneDist="100.0" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="C:\Users\chris\Pictures\BlenderPics\New folder\Ogre3D\Ogre2\Knight.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\chris\Pictures\BlenderPics\New folder\Ogre3D\Ogre2\MySwordColors.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourAmbient r="0.0" g="0.0" b="0.0" />
+    <colourBackground r="0.05087608844041824" g="0.05087608844041824" b="0.05087608844041824" />
+    <colourDiffuse r="0.05087608844041824" g="0.05087608844041824" b="0.05087608844041824" />
+  </environment>
+</scene>
