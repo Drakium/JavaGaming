@@ -1,5 +1,5 @@
 /*
-* Author: Beau Derrick and Christian Salano
+* Author: Beau Derrick and Christian Solano
 * Date: 5/10/17
 */
 package a3;
